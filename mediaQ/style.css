@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+}
+.here{
+	background-color: black;
+	height: 100%;
+	width: 100%;
+
+}
+
+
+
+@media(min-width: 320px){
+.here{
+		background-color: blue;
+		font-size: rem;
+		line-height: ;
+	}
+}
+@media(min-width: 480px){
+.here{
+		background-color: red;
+		font-size: rem;
+		line-height: ;
+	}	
+}
+@media(min-width: 768px){
+.here{
+		background-color: green;
+		font-size: rem;
+		line-height: ;
+	}	
+}
+@media(min-width: 1024px){
+.here{
+		background-color: orange;
+		font-size: rem;
+		line-height: ;
+	}	
+}
+@media(min-width: 1200px){
+.here{
+		background-color: purple;
+		font-size: rem;
+		line-height: ;
+	}	
+}
+@media(min-width: 1600px){
+.here{
+		background-color: pink;
+		font-size: rem;
+		line-height: ;
+	}	
+}

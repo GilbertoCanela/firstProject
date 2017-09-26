@@ -1,0 +1,338 @@
+*{
+	font-family: 'Bree Serif', sans-serif;
+}
+
+.wholepage{
+	background-color: white;
+	position: absolute;
+	top:0px; 
+	right:0px;
+	height:2525px;
+	width:;
+	padding: 10px, 10px, 10px, 10px;
+	border-left: 100px solid white;
+	border-right: 100px solid white;
+}
+
+.headpiece{
+	background-color: white;
+	position: relative;
+	top:; 
+	right:;
+	height:80px;
+	width:100%;
+	font-size: 1rem;
+	color: rgb(34, 153, 62);
+	text-shadow: black 1px 1px 1px;
+}
+
+.headpiece h2{
+	position: relative;
+	top: 20px;
+	right: -157px;
+}
+
+.spbpic{
+	position: relative;
+	top: -117px;
+	right: 0px;
+}
+
+.ourmission{
+	background-image: url("https://imayroam.com/wp-content/uploads/2016/02/Manhattan-skyline-from-Sunset-Park-Brooklyn-web-version-1780.jpg");
+	position: relative;
+	top:-15px; 
+	right:;
+	height:400px;
+	width:100%;
+	text-align: center;
+
+}
+
+.viewvideos{
+	background-color: rgb(34, 153, 62);
+	position: relative;
+	top:-31px; 
+	right:0px;
+	height:200px;
+	width:49.5%;
+	text-align: center;
+}
+
+.aboutus{
+	background-color: rgb(34, 153, 62);
+	position: relative;
+	top:-252px; 
+	right:-432px;
+	height:200px;
+	width:49.5%;
+	text-align: center;
+	margin: auto;
+
+}
+
+.slideshow{
+	background-color: green;
+	position: relative;
+	top:-246px; 
+	right:0px;
+	height:0px;
+	width:100%;
+}
+
+.slideshow img{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.mySlides.fade img{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.spb{
+	text-align: center;
+	font-size: 5rem;
+	position: relative;
+	top: 396px; 
+
+}
+
+.gettheapp{
+	background-color: rgb(34, 153, 62);
+	position: relative;
+	top:358px; 
+	right:0px;
+	height:500px;
+	width:100%;
+	font-family: 'Bree Serif', sans-serif;
+}
+
+.gettheapp p{
+	font-size: 2rem;
+}
+
+.apppic1{
+	position: relative;
+	top: 100px;
+	right: -820px;
+	height: 400px;
+}
+
+.apppic1 img{
+	position: relative;
+	top: -227px;
+	left: 266px;
+}
+
+.apppic2{
+	position: relative;
+	top: 100px;
+	right: -155px;
+	
+}
+
+.apppic2 img{
+	position: relative;
+	top: -471px;
+	right: 0px;
+}
+
+
+.freewifi{
+	text-align: center;
+	background-color: purple;
+
+	background-image: url("http://www.hotel-r.net/im/hotel/gb/sunset-park-9.jpg");
+	/*position: relative;*/
+	margin-top:362px; 
+	right:0px;
+	height:0px;
+	width:100%;
+	color: purple;
+	
+	font-family: 'Bree Serif', sans-serif;
+}
+
+
+.foothold{
+	background-color: rgb(34, 153, 62);
+	position: relative;
+	top:450px; 
+	right:0px;
+	height:223px;
+	width:100%;
+	border:1px;
+	border-color: black;
+	border-style: solid;
+	font-family: 'Bree Serif', sans-serif;
+}
+
+.aboutcontainer{
+	background-color: rgb(139,0,139);
+	position: relative;
+	top: 0px;
+	right: -8px;
+	height: 50px;
+	width: 200px;
+	border: 1px 1px 1px 1px;
+	border-style: solid;
+	border-color: black;
+	text-align: center;
+	color: white;
+	padding-bottom: 50px;
+	margin: auto;
+}
+
+.viewcontainer{
+	background-color: rgb(139,0,139);
+	position: relative;
+	top: 0px;
+	right: -12px;
+	height: 50px;
+	width: 200px;
+	border: 1px 1px 1px 1px;
+	border-style: solid;
+	border-color: black;
+	text-align: center;
+	color: white;
+	padding-bottom: 50px;
+	margin: auto;
+}
+
+
+
+.ourcontainer{
+	background-color: rgb(139,0,139);
+	position: relative;
+	top: 85px;
+	right: -5px;
+	height: 60px;
+	width: 400px;
+	border: 1px 1px 1px 1px;
+	border-style: solid;
+	border-color: black;
+	text-align: center;
+	color: white;
+	padding-bottom: 50px;
+	margin: auto;
+}
+
+.hebe1{
+	position: relative;
+	top: -18px;
+	right: -942px;
+
+}
+
+.headlinks2{
+	position: relative;
+	top: -54px;
+	right: -1152px;
+
+}
+
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;margin:0}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+	height: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+background-color: rgb(139,0,139); /*changes color of slideshow arow b. */
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+} 
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
